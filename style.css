@@ -1,0 +1,51 @@
+body {
+    background-color: white
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+
+.navlink {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.container {
+    border: 2px;
+    border-radius: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0;
+}
+
+.cont {
+    border: 2px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 230px
+}
+
+gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+gallery {
+    width: 200px;
+    border-radius: 8px;
+
+}
