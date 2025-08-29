@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>contact page</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+
+    .git{
+        text-align: center;
+    }
+    
+
+.wr{
+    /* margin-bottom: 20px; */
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+    .contact-box {
+    background-color: #fff;
+    width: 90%;
+    padding: 25px;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 15px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.contact-box button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.contact-box button:hover {
+    background-color: #45a049;
+}
+</style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="./Images/ti.jpg" alt="logo" class="logo">
+            <ul class="navlink">
+                <li class="li"><a href="Index.html">HOME</a></li>
+                <li class="dropdown">
+                    <span class="spa">SHOP</span>
+                    <div class="dropdown-content">
+                        <p><a href="Ladies.html">Ladies</a></p>
+                        <P><a href="Men.html">Men</a></P>
+                    </div>
+                </li>
+                <li><a href="Cart.html">CART</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="git">Get in touch</h1>
+
+    <p class="wr">
+        We'd love to hear from you! whether you've questions about our jewerly accesories, <br> need help with an order.
+        simply fill out the form below and we'll reply as soon as possible.
+    </p>
+    <!-- <br>
+    <br>
+    <br> -->
+    <div class="contact-box">
+        <h2 class="contact">CONTACT ME</h2>
+        <form id="contactform" onsubmit="handlesubmit (event)">
+            <input type="text" placeholder="Full name">
+            <input type="text" placeholder="Last name">
+            <input type="email" placeholder="Email Address">
+            <input type="tel" placeholder="phone number">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">send</button>
+        </form>
+    </div>
+    
+        <footer class="foot">
+            <p class="facebk"><b>Check out our other Page</b></p>
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="social-links">
+                <a href="https://wa.me/2348028561142 " target="_blank" class="social-media whatsapp"><i
+                        class="fa fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com" target="_blank" class=" social-media facebook"><i
+                        class="fa fa-facebook"></i></a>
+                <a href="https://www.tiktok.com" target="_blank" class="social-media tiktok"><i
+                        class="fa fa-tiktok"></i></a>
+            </div>
+                &copy;2025 SYMBOL ACCESORIES
+            </footer>
+
+</body>
+<script>
+    function handlesubmit(event) {
+        event.preventDefault(); // stop from refreshing page
+
+        alert("Your message has been submitted, thank you!");
+
+        // clear the form
+        document.getElementById("contactform").reset(); 
+    }
+
+    // Add event listener to the form
+    window.onload = function () {
+        document.getElementById("contactform").addEventListener("submit", handlesubmit);
+    }
+</script>
+</html>
+</button

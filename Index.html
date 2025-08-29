@@ -4,76 +4,122 @@
 <head>
     <title>Symbol Accessories</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
     <header>
         <nav class="navbar">
+            <img src="./Images/ti.jpg" alt="logo" class="logo">
             <ul class="navlink">
-                <li><a href=#home>home</a></li>
-                <li><a href="#shop">shop</a></li>
-                <li><a href="#About">about</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li class="li"><a href="Index.html">HOME</a></li>
+                <li class="dropdown">
+                    <span class="spa">SHOP</span>
+                    <div class="dropdown-content">
+                        <p><a href="Ladies.html">Ladies</a></p>
+                        <P><a href="Men.html">Men</a></P>
+                    </div>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li class="cart">
+                <a href="#">
+                    <i class="fa fa-shopping-cart" style="font-size: 28px; position: relative;">
+                        <span id="cart-count" style="position: absolute; top: 8px; right -10px;
+                        background: red; color: white; font-size: 12px; padding: 2px 6px;
+                        border-radius: 50%; display: none;">
+                        </span>
+                    </i>
+                </a>
+                </li>
             </ul>
         </nav>
     </header>
 
+    <!-- CART DROPDOWN -->
+     <div class="cart-container" id="cart">
+        <h3>Your Cart</h3>
+        <div id="cart-items"></div>
+        <p><strong>Total<span id="cart-total">0</span></strong></p>
+        <button id="checkout-btn">Checkout</button>
+     </div> 
+
+    <h1 class="symb">SYMBOL ACCESORIES</h1>
+
     <section id="gallery">
-        <h2>Our Collection</h2>
-        <div class="gallery">
-            <img src="fa.jpg" alt="pendant">
-            <img src="chain.jpg" alt="waist chain">
-            <img src="lace.jpg" alt="necklace">
-            <img src="sil.jpg" alt="set of rings">
-            <img src="bi.jpg" alt="bracelets">
-            <img src="si.jpg" alt="friendship necklace">
-            <img src="ti.jpg" alt="friendship beads">
+        <h2 class="pone">Welcome!!!<h2>
+                <section class="coll">
+                    <p class="para">Symbol Accessories is your go-to store for stylish and affordable jewelry, bags, and fashion
+                        accessories.
+                        We offer carefully selected collections for men and women that reflect elegance, class, and
+                        individuality.</p>
+                </section>
 
+                <br>
+                <p class="coll">OUR COLLECTION</p>
+                <div class="div1">
+                    <figure>
+                        <a href="shop.html" target="_blank">
+                            <img src="./Images/bi.jpg" alt="img" class="images"></a>
+                    </figure>
 
+                    <figure>
+                        <a href="shop.html" target="_blank">
+                            <img src="./Images/chain.jpg" alt="img" class="images"></a>
+                    </figure>
 
-
-
-            <div class="container">
-
-                <div class="cont">
-                    <img src="bami.jpg" alt="bami">
+                    <figure>
+                        <a href="shop.html" target="_blank">
+                            <img src="./Images/hijabi.jpg" alt="img" class="images"></a>
+                    </figure>
                 </div>
+    </section>
 
-                <div class="cont">
-                    <img src="hijabi.jpg">
-                </div>
+    <section class="Products1">
+        <p class="pro"><b>Your one-stop for elegant jewerly,bags,watches & more</b></p>
+        <br>
+        <p><b>Our Products;</b></p>
+        <br>
+        <ul class="your">
+            <li>JEWERLY</li>
+            <li>BAGS & PURSES</li>
+            <li>BROOCHES & PINS</li>
+            <li>ANKLETS & WAIST CHAIN</li>
+        </ul>
 
-                <div class="cont">
-                    <img src="ire.jpg" alt="ire">
-                </div>
+    </section>
+    <br>
+    <br>
 
-                <div class="cont">
-                    <img src="lil.jpg" alt="lil">
-                </div>
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
 
-                <!-- <div class="cont">
-                <img src="dora.jpg" alt="dora">
-            </div> -->
+        <blockquote>
+            <p>"Absolutely love the quality of the jewelry. Fast delivery too!"</p>
+            <cite>– Queen.E </cite>
+        </blockquote>
+        <blockquote>
+            <p>"The bags are stunning. I always get compliments!"</p>
+            <cite>– Ummu salamah</cite>
+        </blockquote>
+    </section>
+
+        <footer class="foot">
+            <p class="facebk"><b>Check out our other Pages</b></p>
+            <div class="social-links">
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="https://wa.me/2348028561142 " target="_blank" class="social-media whatsapp"><i
+                        class="fa fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com" target="_blank" class=" social-media facebook"><i
+                        class="fa fa-facebook"></i></a>
+                <a href="https://www.tiktok.com" target="_blank" class="social-media tiktok"><i
+                        class="fa fa-tiktok"></i></a>
             </div>
+            &copy;2025 SYMBOL ACCESORIES
+        </footer>
 
-
-        </section>
-    <h1>Welcome to Symbol jewerly& Accessories</h1>
-    <p>At Symbol Accessories, we believe fashion should be stylish,affordable,and empowering. our jewerly and Accessories are carefully selected to bring elegance, confidence,and class to your everday look.whether it's a causal outing or special event ,we've got you covered.</p>
-
-    </p>
-    <li>
-        jewerly[earrings, necklace, friendship beads, bracelets, Set of rings, earrings and pendant etc.]
-    </li>
-    <li>
-        bags&purses
-    </li>
-    <li>
-        Brooches&pins
-    </li>
-    <li>
-        Anklets&Waist chain
-    </li>
+        <script src="index.js"></script>
 </body>
 
 </html>
